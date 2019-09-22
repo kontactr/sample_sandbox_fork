@@ -129,6 +129,9 @@ class App extends React.Component {
 }
 
 let t = <App />;
+console.log(
+  "This is required to create testcase",
+);
 console.log(new t.type().render(), 50);
 
 render(<App />, document.getElementById("root"));
